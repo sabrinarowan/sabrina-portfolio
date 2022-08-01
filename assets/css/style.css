@@ -7,6 +7,7 @@
 body {
     color: black;
     font-family: Helvetica, Arial, sans-serif;
+    background-color: lightgray;
 }
 
 header {
@@ -28,7 +29,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: rgb(113, 113, 233);
+    color: white;
 }
 
 header nav {
@@ -45,7 +46,7 @@ header nav ul {
 
 header nav ul li a {
     padding: 10px 15px;
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 .intro {
@@ -62,6 +63,18 @@ header nav ul li a {
 
 .intro-right {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.intro-right h1 {
+    display: flex;
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+.intro-right p {
+    font-size: 25px;
+    padding-bottom: 15px;
 }
 
 .intro-img img {
@@ -70,4 +83,16 @@ header nav ul li a {
     border-radius: 50%;
     max-width: 400px;
     max-height: 400px;
+}
+
+.work {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-row {
+    display: flex;
 }
