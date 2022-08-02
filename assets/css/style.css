@@ -11,12 +11,6 @@ body {
 }
 
 header {
-    background-image: url("../images/pudding-creek.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
-    background-color: white;
     display: flex;
     padding: 20px;
     justify-content: space-between;
@@ -28,7 +22,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 header nav {
@@ -49,11 +43,6 @@ header nav ul li a {
 }
 
 .intro {
-    background-image: url("../images/pudding-creek.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -136,6 +125,14 @@ header nav ul li a {
     justify-content: center;
     align-items: center;
     margin: 10px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .flex-row {
