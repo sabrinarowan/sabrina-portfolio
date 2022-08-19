@@ -80,6 +80,7 @@ header nav ul li a {
     margin: 35px auto 35px auto;
     width: 50%;
 }
+
 .project {
     margin: 50px auto;
     padding-bottom: 50px;
@@ -114,6 +115,15 @@ header nav ul li a {
     max-width: 800px;
     max-height: 600px;
 }
+
+.project-img2 img {
+    display: flex;
+    align-items: center;
+    max-width: 60%;
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .project-img img{
     display: flex;
     justify-content: space-between;
@@ -125,6 +135,7 @@ header nav ul li a {
     justify-content: center;
     align-items: center;
     margin: 10px;
+    text-align: center;
 }
 
 .contact-info {
